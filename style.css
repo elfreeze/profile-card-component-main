@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(/images/bg-pattern-top.svg) left top, url(/images/bg-pattern-bottom.svg) right bottom, hsl(185, 75%, 39%);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.attribution {
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.none {
+    color: hsl(185, 75%, 39%) hsl(229, 23%, 23%) hsl(227, 10%, 46%)hsl(0, 0%, 59%);
+}
